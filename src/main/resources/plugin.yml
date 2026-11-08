@@ -1,0 +1,15 @@
+name: AutoQuests
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Automatically generated player quests with persistent progress.
+commands:
+  quests:
+    description: View and manage your active quests.
+    usage: /quests [list|reroll]
+    aliases: [quest]
+    permission: autoquests.use
+permissions:
+  autoquests.use:
+    description: Allows players to use the quests command.
+    default: true
